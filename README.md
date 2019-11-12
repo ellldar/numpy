@@ -92,3 +92,5 @@ def apply_vignette(img):
 ### Example
 To see more, just open the **`Rush - Part II`** file. GitHub will automatically load it and run it for you, which is really nice!!
 ![Example](example.png)
+
+P.S. I might have done everything completely wrong. It was my first time using Python for a project.
