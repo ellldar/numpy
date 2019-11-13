@@ -75,7 +75,7 @@ This function applies the **`vignette`** effect. For this, I had to remember the
 ```
 So, in my case, I wanted to modify only pixels that were outside this ellipse. Therefore, I checked if this formula was **`>1`**. Also, make sure you move the **x** and the **y** to the middle of your image.
 
-```
+```python
 def apply_vignette(img):
   img_hsv = mpcolors.rgb_to_hsv(img)
   center_x = img.shape[0] / 2
